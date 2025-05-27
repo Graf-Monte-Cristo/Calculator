@@ -16,7 +16,7 @@ number.forEach( number => {
     }
     if (isNumber(textNumber) && isNumber(show.textContent)){
         show.textContent += textNumber;
-        if (show.textContent === '0'){
+        if (show.textContent === '0' && textNumber !== '0'){
             show.textContent = '';
         }
     }
