@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .calculator{
+        height: 70vh;
+        width: 40vh;
+        border: 0.4vh solid rgb(20, 19, 20);
+        border-radius: 1.5vh;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+
+        .space{
+            height: 20vh;
+            align-self: flex-end;
+            align-content: end;
+            font-size: 4em;
+            padding: 0 1vh;
+            color: white
+        }
+        table{
+            table-layout: fixed;
+            font-size: xx-large;
+            padding: 10px;
+
+            
+            td{
+                // border: 1px solid black;
+                border-radius: 3vh;
+                height: 8vh;
+                width: 8vh;
+                text-align: center;
+                border-collapse: collapse;
+                padding: 1vh;
+            }
+
+            #first-row{
+                background-color:rgb(151, 151, 151);
+                color: rgb(16, 16, 16);
+            }
+            .orange{
+                background-color: orange;
+                color: white;
+            }
+            .numbers{
+                background-color: rgb(26, 26, 26);
+                color: white;
+            }
+        }
+    }
+}
